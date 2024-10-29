@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+body{
+    background: #014E56;
+   
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.nav button{
+    width: 153px;
+height: 48px;
+gap: 0px;
+border-radius: 9px 9px 9px 9px;
+border: 2px 2px 2px 2px ;
+border-color: white;
+opacity: 0px;
+background-color: #014E56;
+color: white;
+}
+.ggg{
+    display: none;
+}
+
+.main{
+    display: flex;
+    color: white;
+   margin-top: 120px;
+   gap: 30px;
+   justify-content: center;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+}
+
+.maain{
+    margin-top: 71px;
+    color: white;
+   
+   
+}
+
+.div-maain{
+    display: flex;
+    gap: 30px;
+    margin-top: 69px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.maain-text{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    min-width: 350px;
+height: 305.13px;
+top: 709.62px;
+left: 167px;
+gap: 0px;
+opacity: 0px;
+
+background: #012F34;
+justify-content: center;
+
+}
+
+.section-h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 113px;
+}
+
+.section img{
+    width: 120px;
+}
+
+
+.section ul{
+    margin-top: 56px;
+    display: flex;
+    gap: 79px;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .main{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        max-width: 683px;
+height: 220px;
+align-items: center;
+
+
+    }
+    .section ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+       
+    }
+   
+   
+}
+
+.mmmm{
+    margin-top: 122px;
+    max-width: 1200px;
+height: 200px;
+top: 1519px;
+gap: 0px;
+opacity: 0px;
+background-color: orange;
+display: flex;
+align-items: center;
+gap: 260px;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+
+.mmmm-bbbb{
+    width: 153px;
+height: 48px;
+left: 764px;
+gap: 0px;
+opacity: 0px;
+border-radius: 24px 24px 24px 24px;
+background: none;
+color: white;
+border-color: white;
+}
+
+@media (max-width:375px) {
+    .nav ul{
+       display: none;
+    }
+
+    .ggg{
+        display: initial;
+    }
+
+   
+}
